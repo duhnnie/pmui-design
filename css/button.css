@@ -1,0 +1,10 @@
+.pmui-button {
+    background-color: #1E91D1;
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px;
+    height: 100px;
+    display: inline-block;
+    line-height: 80px;
+    box-sizing: border-box;
+}
