@@ -1,10 +1,34 @@
 .pmui-button {
+	font-size: 14px;
+	text-transform: uppercase;
     background-color: #1E91D1;
     text-decoration: none;
     color: #FFF;
     padding: 10px;
-    height: 100px;
     display: inline-block;
-    line-height: 80px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
     box-sizing: border-box;
+    -webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	-ms-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.80;
+	-khtml-opacity: 0.80;
+	opacity: 0.80;
+}
+
+.pmui-button:hover {
+	filter: alpha(opacity=100);
+	-moz-opacity: 1.00;
+	-khtml-opacity: 1.00;
+	opacity: 1.00;
+};
+
+.pmui-button-icon {
+    display: inline-block;
 }

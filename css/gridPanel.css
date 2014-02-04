@@ -1,0 +1,64 @@
+.pmui-gridpanel {
+	width: 360px;
+}
+
+.pmui-gridpanel-table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.pmui-gridpanel-table thead{
+	color: #fff;
+	font-weight: 100 !important;
+	text-transform: uppercase;
+	background: #2d3e50;
+}
+.pmui-gridpanel-table thead th{
+	border-right: 2px solid #fff;
+	padding: 10px 20px;
+}
+.pmui-gridpanel-table thead th:last-child{
+	border: 0;
+}
+
+.pmui-gridpanel-table tbody{
+	color: #333333;
+}
+.pmui-gridpanel-table tbody tr{
+	border-bottom: 1px solid #e5e5e5;
+}
+.pmui-gridpanel-table tbody td{
+	padding: 10px 5px;
+}
+
+ul.pmui-gridpanel-pager {
+	float: right;
+}
+ul.pmui-gridpanel-pager li{
+	display: inline-block;
+	margin: 0 1px;
+}
+ul.pmui-gridpanel-pager li a{
+	float: left;
+	display: block;
+	color: #2d3e50;
+	text-decoration: none;
+	text-align: center;
+	padding: 4px 7px;
+}
+ul.pmui-gridpanel-pager li a:hover{
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.70;
+	-khtml-opacity: 0.70;
+	opacity: 0.70;
+}
+ul.pmui-gridpanel-pager li .pmui-gridpanel-activepage{
+	color: #fff;
+	background: #2d3e50;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+ul.pmui-gridpanel-pager li .txtL{
+	text-decoration: underline;
+}

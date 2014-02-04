@@ -12,4 +12,5 @@
 [class^="pmui-"],
 [class*=" pmui-"] {
     font-family: 'SourceSansProRegular', Arial, Tahoma, Verdana;
+    text-align: center;
 }
