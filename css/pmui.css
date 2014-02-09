@@ -15,15 +15,19 @@
     text-align: center;
 }
 
-
-
 /* Debería ir así para afectar a todos los campos que sean formularios */
 
-label, select, input, textarea{
-font-size: 16px;
-font-family: 'SourceSansProLight', Arial, Tahoma, Verdana;
-border: none;
--webkit-border-radius: 1px;
--moz-border-radius: 1px;
-border-radius: 1px;
+.pmui-textcontrol, 
+.pmui-dropdownlistcontrol, 
+.pmui-textareacontrol {
+    font-size: 16px;
+    font-family: 'SourceSansProLight', Arial, Tahoma, Verdana;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    border: 1px solid #bec5cc;
+    background: #fff;
+    display: inline-block;
+    text-align: left;
+    padding: 7px 4px;
 }
