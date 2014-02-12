@@ -21,6 +21,18 @@
 	border: 0;
 }
 
+.pmui-gridpanel-table thead th a{
+	color: #fff;
+	text-decoration: none;
+	background:  url(../img/ar_dwn.png) no-repeat right center;
+	padding-right: 20px;
+}
+.pmui-gridpanel-table thead th a:hover{
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.70;
+	-khtml-opacity: 0.70;
+	opacity: 0.70;
+}
 .pmui-gridpanel-table tbody{
 	color: #333333;
 }
