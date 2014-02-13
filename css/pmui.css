@@ -11,7 +11,8 @@
 
 [class^="pmui-"],
 [class*=" pmui-"] {
-    font-family: 'SourceSansProRegular', Arial, Tahoma, Verdana;
+    color: #2d3e50;
+	 font-family: 'SourceSansProRegular', Arial, Tahoma, Verdana;
     text-align: center;
 }
 
@@ -31,3 +32,19 @@
     text-align: left;
     padding: 7px 4px;
 }
+
+
+.pmui-htmlcontrol{
+	float: left;
+	display: block;
+	cursor: pointer;
+	margin: 5px 0;
+}
+.pmui-htmlcontrol input{
+float: left;
+margin: 2px 10px 2px 0;
+}
+.pmui-htmlcontrol span{
+float: left;
+}
+

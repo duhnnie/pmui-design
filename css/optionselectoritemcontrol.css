@@ -1,0 +1,54 @@
+
+
+.pmui-switch-buttonitem span{
+	float: left;
+	display: inline-block;
+}
+.pmui-switch-buttonitem-selected span{
+	float: left;
+	display: inline-block;
+}
+
+
+a.pmui-switch-buttonitem:link,a.pmui-switch-buttonitem:visited{
+display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	background: #c7cdd4;
+	margin: 0 2px;
+	padding: 15px;
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	-ms-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+}
+a.pmui-switch-buttonitem:hover{  
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.70;
+	-khtml-opacity: 0.70;
+	opacity: 0.70;
+}
+
+a.pmui-switch-buttonitem-selected:link,a.pmui-switch-buttonitem-selected:visited{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	background: #2d3e50;
+	margin: 0 2px;
+	padding: 15px;
+	-webkit-transition: all .4s;
+	-moz-transition: all .4s;
+	-ms-transition: all .4s;
+	-o-transition: all .4s;
+	transition: all .4s;
+}
+a.pmui-switch-buttonitem-selected:hover{  
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.70;
+	-khtml-opacity: 0.70;
+	opacity: 0.70;
+}
+
