@@ -1,18 +1,13 @@
-
-.pmui-active{
-	background: #edb60b !important;
+.pmui-tabpanel-tabs,
+.pmui-tabitem {
+	float: left;
 }
 
-
-
-ul.pmui-tabpanel-tabs {
-	float: left;
+.pmui-tabpanel-tabs {
 	border-bottom: 1px solid #dadfe4;
-	width: 100%;
 	padding: 0;
 }
-ul.pmui-tabpanel-tabs li{
-	float: left;
+.pmui-tabitem {
 	display: block;
 	vertical-align: bottom;
 	font-size: 18px;
@@ -20,12 +15,15 @@ ul.pmui-tabpanel-tabs li{
 	background: #c7cdd4;
 	margin: 0 4px;
 }
-ul.pmui-tabpanel-tabs li a{
-	float: left;
+
+.pmui-tabitem.pmui-active {
+	background: #edb60b;
+}
+
+.pmui-tab-ref {
 	display: block;
 	color: #fff;
 	text-decoration: none;
-	text-align: center;
 	padding: 15px;
 	-webkit-transition: all .4s;
 	-moz-transition: all .4s;
@@ -33,7 +31,7 @@ ul.pmui-tabpanel-tabs li a{
 	-o-transition: all .4s;
 	transition: all .4s;
 }
-ul.pmui-tabpanel-tabs li a:hover{
+.pmui-tabitem .pmui-tab-ref:hover{
 	filter: alpha(opacity=70);
 	-moz-opacity: 0.70;
 	-khtml-opacity: 0.70;
