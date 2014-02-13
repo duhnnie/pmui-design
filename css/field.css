@@ -1,0 +1,25 @@
+
+
+.pmui-field-label, 
+.pmui-field-control {
+	float: left;
+	display: block;
+	text-align: left;
+	margin-right: 5px;
+}
+
+.pmui-field-label{
+	width: 200px;
+	padding: 8px 0;
+}
+.pmui-field-control{
+	width: 500px;
+}
+.pmui-field-control-er{
+	color: #f00;
+}
+
+
+
+
+ 
