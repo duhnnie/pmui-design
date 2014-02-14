@@ -16,6 +16,14 @@
     text-align: center;
 }
 
+ul[class^="pmui-"], 
+ul[class*=" pmui-"],
+ol[class^="pmui-"], 
+ol[class*=" pmui-"] {
+    list-style: none;
+    margin: 0;
+}
+
 /* Debería ir así para afectar a todos los campos que sean formularios */
 
 .pmui-textcontrol, 

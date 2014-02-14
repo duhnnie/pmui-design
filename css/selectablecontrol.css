@@ -1,0 +1,14 @@
+.pmui-selectablecontrol,
+.pmui-selectablecontrol input,
+.pmui-selectablecontrol span {
+    float: left;
+}
+
+.pmui-selectablecontrol {
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.pmui-selectablecontrol input {
+    margin: 2px 10px 2px 0;
+}
