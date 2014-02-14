@@ -8,12 +8,10 @@
 	margin-right: 5px;
 }
 
-.pmui-field-label{
-	width: 200px;
+.pmui-field-label{	
 	padding: 8px 0;
 }
 .pmui-field-control{
-	width: 500px;
 }
 .pmui-field-control-er{
 	color: #f00;

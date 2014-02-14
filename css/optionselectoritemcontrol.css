@@ -13,11 +13,12 @@
 a.pmui-switch-buttonitem:link,a.pmui-switch-buttonitem:visited{
 display: inline-block;
 	color: #fff;
+	font-size: 14px;
 	text-decoration: none;
 	text-align: center;
 	background: #c7cdd4;
 	margin: 0 2px;
-	padding: 15px;
+	padding: 9px 15px;
 	-webkit-transition: all .4s;
 	-moz-transition: all .4s;
 	-ms-transition: all .4s;
@@ -34,11 +35,12 @@ a.pmui-switch-buttonitem:hover{
 a.pmui-switch-buttonitem-selected:link,a.pmui-switch-buttonitem-selected:visited{
 	display: inline-block;
 	color: #fff;
+	font-size: 14px;
 	text-decoration: none;
 	text-align: center;
 	background: #2d3e50;
 	margin: 0 2px;
-	padding: 15px;
+	padding: 9px 15px;
 	-webkit-transition: all .4s;
 	-moz-transition: all .4s;
 	-ms-transition: all .4s;
