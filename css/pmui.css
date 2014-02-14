@@ -43,7 +43,7 @@
 .pmui-htmlcontrol input{
 	float: left;
 	display: inline-block;
-   padding: 1px 10px 0 0;
+   padding-top: 1px;
 }
 .pmui-htmlcontrol span{
 	float: left;
